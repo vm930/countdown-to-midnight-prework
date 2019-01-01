@@ -11,6 +11,6 @@ def countdown (num)
   puts "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep (int)
-  sleep(int);
+def countdown_with_sleep (1)
+  sleep(1);
 end 
