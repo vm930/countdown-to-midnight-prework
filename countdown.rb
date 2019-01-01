@@ -2,8 +2,9 @@
   
 def countdown (num)
   counter = 0
+  secoundsleft = num
     while counter < num 
-    puts "#{num} SECOND(S)!"
+    puts "#{secondsleft} SECOND(S)!"
     countdown_with_sleep(1)
     counter +=1
     num -=1
